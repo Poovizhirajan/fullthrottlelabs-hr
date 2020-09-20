@@ -25,9 +25,8 @@ $ virtualenvwrapper==4.8.4
 Get involved!
 
 We are happy to receive bug reports, fixes, documentation enhancements, and other improvements.
-
 Please report bugs via the github issue tracker.
 
 Master git repository:
 
-git clone 
+git clone https://github.com/Poovizhirajan/fullthrottlelabs-hr.git
