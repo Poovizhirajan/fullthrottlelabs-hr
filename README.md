@@ -1,11 +1,14 @@
-Building 
+---
+# Building 
 
 $ mkvirtualenv env
 $ .\env\Scripts\activate or source env/bin/activate
 $ pip install -r requirements.txt
 $ DEVELOPMENT=1 python manage.py runserver
+***
 
-requirements.txt
+---
+## requirements.txt
 
 $ appdirs==1.4.4
 $ asgiref==3.2.10
@@ -21,12 +24,17 @@ $ stevedore==3.2.2
 $ virtualenv==20.0.31
 $ virtualenv-clone==0.5.4
 $ virtualenvwrapper==4.8.4
+***
 
-Get involved!
+---
+## Get involved!
 
 We are happy to receive bug reports, fixes, documentation enhancements, and other improvements.
 Please report bugs via the github issue tracker.
+***
 
-Master git repository:
+---
+## Master git repository:
 
-git clone https://github.com/Poovizhirajan/fullthrottlelabs-hr.git
+[git clone](https://github.com/Poovizhirajan/fullthrottlelabs-hr.git)
+***
