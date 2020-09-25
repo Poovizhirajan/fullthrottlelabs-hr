@@ -2,10 +2,10 @@
 ---
 ## Building 
 
->> mkvirtualenv env
->> .\env\Scripts\activate or source env/bin/activate
->> pip install -r requirements.txt
->> DEVELOPMENT=1 python manage.py runserver
+1. mkvirtualenv env
+2. .\env\Scripts\activate or source env/bin/activate
+3. pip install -r requirements.txt
+4. DEVELOPMENT=1 python manage.py runserver
 ***
 
 ---
