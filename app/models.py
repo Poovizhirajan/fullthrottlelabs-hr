@@ -4,13 +4,13 @@ from django.db import models
 # Create your models here.
 
 class User(models.Model):
-    GENDER_CHOICES = [
+    TIMEZONE_CHOICES = [
         ("USA/LA", "AMERICA/LOS_ANGELS"),
         ("AS/WB", "ASIA/KOLKATA")
     ]
     id = models.AutoField(primary_key=True)
     real_name = models.CharField(max_length=100, blank=True)
-    time_zone = models.CharField(max_length=50, choices=GENDER_CHOICES)
+    time_zone = models.CharField(max_length=50, choices=TIMEZONE_CHOICES)
 
     class Meta:
         verbose_name_plural = "user"
